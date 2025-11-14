@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+    
+@font-face {
+    font-family: pacifico;
+    src: url(../font/Pacifico-Regular.ttf);
+}
+body{
+    font-family: 'pasifico';
+}
+.done{
+    text-decoration: line-through;
+    color: #803e0c;
+}
+.filter-btn.active{
+    background-color: rgb(251 191 36) !important;
+    font-weight: bold;
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
